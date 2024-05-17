@@ -68,12 +68,34 @@ nav ul li a {
 .content-home {
     width: 100%;
     height: 715px;
-    background-image: url(IMG/scandinavian-interior-mockup-wall-decal-background\ 1.png);
     background-size: cover;
     background-position: center;
     display: flex;
-    justify-content: right;
     align-items: center;
+}
+
+.orientation-left {
+    justify-content: left;
+}
+
+.orientation-right {
+    justify-content: right;
+}
+
+.orientation-center {
+    justify-content: center;
+}
+
+.custom-image-slide1 {
+    background-image: url(IMG/slide1.png);
+}
+
+.custom-image-slide2 {
+    background-image: url(IMG/slide2.jpg);
+}
+
+.custom-image-slide3 {
+    background-image: url(IMG/slide3.jpg);
 }
 
 .banner-content-home {
@@ -115,6 +137,11 @@ nav ul li a {
     margin: 0;
 }
 
+.center-text {
+    text-align: center;
+    align-items: center;
+}
+
 .btn-content-home {
     background-color: #B88E2F;
     color: #FFFFFF;
@@ -128,6 +155,10 @@ nav ul li a {
     box-sizing: border-box;
     text-size-adjust: 100%;
     font-weight: bold;
+}
+
+.btn-content-home:hover {
+    background-color: #505050;
 }
 
 /* Seccion 2 */
@@ -286,6 +317,26 @@ nav ul li a {
     background: var(--Primary, #B88E2F);
     color: #FFF;
 }
+
+/* Seccion 4 */
+
+.section-inspiration {
+    background: #FCF8F3;
+    width: 100%;
+    height: 670px;
+    padding: 44px 0px;
+    display: flex;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.text-section-inspiration {
+    height: 582px;
+    width: 422px;
+    background-color: #B88E2F;
+    margin-left: 100px;
+}
+
 
 /* footer */
 
