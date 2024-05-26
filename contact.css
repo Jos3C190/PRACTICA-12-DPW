@@ -1,14 +1,3 @@
-html {
-    min-height: 100%;
-    position: relative;
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
 .banner {
     background: url(IMG/Rectangle\ 1.png) lightgray 50% / cover no-repeat;
     width: 100%;
@@ -62,4 +51,111 @@ footer {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+.container-contact {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 98px;
+    gap: 14px;
+}
+
+.contact-title {
+    margin: 0 auto;
+    text-align: center;
+    width: 644px;
+}
+
+.title-contact {
+    color: #000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.description-contact {
+    color: #9F9F9F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container-contact-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-info {
+    width: 393px;
+    height: 537px;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    padding: 58px 75px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 0;
+}
+
+.contact-form {
+    width: 630px;
+    height: 100%;
+    padding: 52px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.contact-form input,
+textarea {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #9F9F9F;
+    background: #FFF;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.contact-form button {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid var(--Primary, #B88E2F);
+    background: var(--Primary, #B88E2F);
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contact-form button:hover {
+    background: #FFF;
+    color: var(--Primary, #B88E2F);
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
 }
