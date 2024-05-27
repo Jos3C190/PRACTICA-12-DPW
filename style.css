@@ -254,18 +254,20 @@ nav ul li a {
 .product {
     width: 285px;
     height: 446px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
 }
 
 .image-product {
     width: 285px;
     height: 301px;
-    flex-shrink: 0;
 }
 
 .content-product {
     width: 285px;
     height: 145px;
-    flex-shrink: 0;
     background: var(--Color-Light-BG, #F4F5F7);
     padding: 17px;
     box-sizing: border-box;
@@ -341,10 +343,82 @@ nav ul li a {
 /* footer */
 
 footer {
-    background-color: #333;
-    padding: 10px 0;
-    text-align: center;
-    color: #f0f0f0;
+    padding: 48px 100px 38px 100px;
+    border-top: 1px solid rgba(0, 0, 0, 0.17);
+    background: #f8f8f8;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-up {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 120px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 92%;
+    margin-bottom: 40px;
+}
+
+.content-footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.content-footer-logo h3 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.content-footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+    margin-right: 10px;
+}
+
+.content-footer-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.content-footer-links a:hover {
+    color: #4b4b4b;
+}
+
+.content-footer-links h5 {
+    color: #9F9F9F;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 0 40px 0;
+}
+
+.footer-down {
+    padding-top: 35px;
+    width: 92%;
+    justify-content: center;
+    border-top: #D9D9D9 1px solid;
+}
+
+.footer-down p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
 }
