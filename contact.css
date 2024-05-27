@@ -154,8 +154,3 @@ textarea {
     background: #FFF;
     color: var(--Primary, #B88E2F);
 }
-
-footer {
-    bottom: 0;
-    width: 100%;
-}
