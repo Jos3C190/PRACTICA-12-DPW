@@ -87,15 +87,15 @@ nav ul li a {
 }
 
 .custom-image-slide1 {
-    background-image: url(IMG/slide1.png);
+    background-image: url(images/slide1.png);
 }
 
 .custom-image-slide2 {
-    background-image: url(IMG/slide2.jpg);
+    background-image: url(images/slide2.jpg);
 }
 
 .custom-image-slide3 {
-    background-image: url(IMG/slide3.jpg);
+    background-image: url(images/slide3.jpg);
 }
 
 .banner-content-home {
@@ -320,26 +320,6 @@ nav ul li a {
     color: #FFF;
 }
 
-/* Seccion 4 */
-
-.section-inspiration {
-    background: #FCF8F3;
-    width: 100%;
-    height: 670px;
-    padding: 44px 0px;
-    display: flex;
-    align-items: center;
-    margin-top: 55px;
-}
-
-.text-section-inspiration {
-    height: 582px;
-    width: 422px;
-    background-color: #B88E2F;
-    margin-left: 100px;
-}
-
-
 /* footer */
 
 footer {
@@ -347,7 +327,7 @@ footer {
     border-top: 1px solid rgba(0, 0, 0, 0.17);
     background: #f8f8f8;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 30px; 
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
